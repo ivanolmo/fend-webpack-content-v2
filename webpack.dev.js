@@ -14,17 +14,13 @@ module.exports = {
                 enforce: 'pre',
                 test: '/\.js$/',
                 exclude: /node_modules/,
-                loader: 'eslint-loader',
-                options: {
-                    cache: true
-                }
+                loader: ['babel-loader', 'eslint-loader'],
             },
             {
-                test: '/\.js$/',
-                exclude: /node_modules/,
-                loader: 'babel-loader'
+                test: /\.scss$/,
+                use: ['style-loader', 'css-loader', 'sass-loader']
             }
-        ]
+        ],
     },
     plugins: [
       new HtmlWebpackPlugin({
