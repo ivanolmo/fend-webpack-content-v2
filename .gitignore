@@ -1,3 +1,5 @@
 node_modules
 .idea
 dist
+example.css
+example.scss
