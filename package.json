@@ -35,6 +35,7 @@
     "terser-webpack-plugin": "^3.0.8",
     "webpack-bundle-analyzer": "^3.8.0",
     "webpack-dev-server": "^3.11.0",
-    "webpack-merge": "^5.0.9"
+    "webpack-merge": "^5.0.9",
+    "workbox-webpack-plugin": "^5.1.3"
   }
 }
