@@ -2,6 +2,8 @@
 
 This is a v2 to my original repo. Covid and a newborn meant a break from code  :|
 
+Small, simple app is fully functional and complete.
+
 
 The goal of this repo is be an example of a basic but functional app built on Express and Webpack.
 
